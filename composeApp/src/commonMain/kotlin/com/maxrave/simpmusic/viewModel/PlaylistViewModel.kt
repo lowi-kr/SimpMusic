@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:no-wildcard-imports")
 
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewModelScope
@@ -26,10 +26,10 @@ import com.maxrave.domain.utils.toPlaylistEntity
 import com.maxrave.domain.utils.toSongEntity
 import com.maxrave.domain.utils.toTrack
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.viewModel.PlaylistUIState.Error
-import com.maxrave.simpmusic.viewModel.PlaylistUIState.Loading
-import com.maxrave.simpmusic.viewModel.PlaylistUIState.Success
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.viewModel.PlaylistUIState.Error
+import com.arubr.smsvcodes.viewModel.PlaylistUIState.Loading
+import com.arubr.smsvcodes.viewModel.PlaylistUIState.Success
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

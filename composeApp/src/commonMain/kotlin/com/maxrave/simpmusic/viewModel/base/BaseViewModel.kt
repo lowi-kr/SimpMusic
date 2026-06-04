@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel.base
+package com.arubr.smsvcodes.viewModel.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

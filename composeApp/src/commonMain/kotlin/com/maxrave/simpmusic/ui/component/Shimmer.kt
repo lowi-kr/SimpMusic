@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -19,8 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.maxrave.simpmusic.extension.shimmer
-import com.maxrave.simpmusic.ui.theme.shimmerBackground
+import com.arubr.smsvcodes.extension.shimmer
+import com.arubr.smsvcodes.ui.theme.shimmerBackground
 
 @Composable
 fun HomeItemShimmer() {

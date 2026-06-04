@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 sealed class Platform {
     object Android : Platform()

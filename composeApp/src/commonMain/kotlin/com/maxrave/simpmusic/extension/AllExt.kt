@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.extension
+package com.arubr.smsvcodes.extension
 
 import androidx.compose.runtime.Composable
 import com.maxrave.common.SponsorBlockType
@@ -6,7 +6,7 @@ import com.maxrave.domain.data.model.browse.artist.ArtistBrowse
 import com.maxrave.domain.extension.now
 import com.maxrave.domain.utils.FilterState
 import com.maxrave.domain.utils.toTrack
-import com.maxrave.simpmusic.viewModel.ArtistScreenData
+import com.arubr.smsvcodes.viewModel.ArtistScreenData
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.periodUntil

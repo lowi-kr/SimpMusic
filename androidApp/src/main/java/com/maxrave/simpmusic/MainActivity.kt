@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 import android.Manifest
 import android.content.ComponentName
@@ -34,11 +34,11 @@ import com.maxrave.domain.mediaservice.handler.MediaPlayerHandler
 import com.maxrave.domain.mediaservice.handler.ToastType
 import com.maxrave.logger.Logger
 import com.maxrave.media3.di.setServiceActivitySession
-import com.maxrave.simpmusic.di.viewModelModule
-import com.maxrave.simpmusic.service.test.notification.NotifyWork
-import com.maxrave.simpmusic.utils.ComposeResUtils
-import com.maxrave.simpmusic.utils.VersionManager
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.arubr.smsvcodes.di.viewModelModule
+import com.arubr.smsvcodes.service.test.notification.NotifyWork
+import com.arubr.smsvcodes.utils.ComposeResUtils
+import com.arubr.smsvcodes.utils.VersionManager
+import com.arubr.smsvcodes.viewModel.SharedViewModel
 import kotlinx.coroutines.runBlocking
 import org.koin.android.ext.android.inject
 import org.koin.core.context.loadKoinModules

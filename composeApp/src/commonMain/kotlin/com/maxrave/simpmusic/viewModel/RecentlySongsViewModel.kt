@@ -1,12 +1,12 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import com.maxrave.domain.repository.SongRepository
-import com.maxrave.simpmusic.pagination.RecentPagingSource
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.pagination.RecentPagingSource
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 
 class RecentlySongsViewModel(
     private val songRepository: SongRepository,

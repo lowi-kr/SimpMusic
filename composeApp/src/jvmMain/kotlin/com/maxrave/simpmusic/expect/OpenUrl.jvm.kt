@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.expect
+package com.arubr.smsvcodes.expect
 
 import multiplatform.network.cmptoast.showToast
 import java.awt.Desktop

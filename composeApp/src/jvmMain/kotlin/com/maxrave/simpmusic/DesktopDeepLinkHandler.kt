@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 import com.eygraber.uri.Uri
 import com.maxrave.domain.data.model.intent.GenericIntent

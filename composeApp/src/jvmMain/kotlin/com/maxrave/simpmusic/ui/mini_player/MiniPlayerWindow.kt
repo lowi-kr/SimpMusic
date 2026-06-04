@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.mini_player
+package com.arubr.smsvcodes.ui.mini_player
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -18,8 +18,8 @@ import androidx.compose.ui.window.WindowPlacement
 import androidx.compose.ui.window.WindowPosition
 import androidx.compose.ui.window.WindowState
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.viewModel.SharedViewModel
-import com.maxrave.simpmusic.viewModel.UIEvent
+import com.arubr.smsvcodes.viewModel.SharedViewModel
+import com.arubr.smsvcodes.viewModel.UIEvent
 import org.jetbrains.compose.resources.painterResource
 import simpmusic.composeapp.generated.resources.Res
 import simpmusic.composeapp.generated.resources.circle_app_icon

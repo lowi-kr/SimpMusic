@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.utils
+package com.arubr.smsvcodes.utils
 
 import org.jetbrains.compose.resources.getString
 import simpmusic.composeapp.generated.resources.Res

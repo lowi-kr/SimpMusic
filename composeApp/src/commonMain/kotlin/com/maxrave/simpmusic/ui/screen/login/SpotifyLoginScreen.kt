@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.login
+package com.arubr.smsvcodes.ui.screen.login
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,17 +31,17 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import com.maxrave.common.Config
-import com.maxrave.simpmusic.expect.ui.PlatformWebView
-import com.maxrave.simpmusic.expect.ui.createWebViewCookieManager
-import com.maxrave.simpmusic.expect.ui.rememberWebViewState
-import com.maxrave.simpmusic.extension.getStringBlocking
-import com.maxrave.simpmusic.ui.component.DevCookieLogInBottomSheet
-import com.maxrave.simpmusic.ui.component.DevLogInBottomSheet
-import com.maxrave.simpmusic.ui.component.DevLogInType
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.LogInViewModel
-import com.maxrave.simpmusic.viewModel.SettingsViewModel
+import com.arubr.smsvcodes.expect.ui.PlatformWebView
+import com.arubr.smsvcodes.expect.ui.createWebViewCookieManager
+import com.arubr.smsvcodes.expect.ui.rememberWebViewState
+import com.arubr.smsvcodes.extension.getStringBlocking
+import com.arubr.smsvcodes.ui.component.DevCookieLogInBottomSheet
+import com.arubr.smsvcodes.ui.component.DevLogInBottomSheet
+import com.arubr.smsvcodes.ui.component.DevLogInType
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.LogInViewModel
+import com.arubr.smsvcodes.viewModel.SettingsViewModel
 import dev.chrisbanes.haze.hazeEffect
 import dev.chrisbanes.haze.hazeSource
 import dev.chrisbanes.haze.materials.ExperimentalHazeMaterialsApi

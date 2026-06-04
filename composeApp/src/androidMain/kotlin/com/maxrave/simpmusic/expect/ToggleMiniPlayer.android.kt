@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.expect
+package com.arubr.smsvcodes.expect
 
 // No-op on Android - mini player is desktop only
 actual fun toggleMiniPlayer() {

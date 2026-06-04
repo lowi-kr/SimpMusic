@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -23,10 +23,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.extension.NonLazyGrid
-import com.maxrave.simpmusic.ui.navigation.destination.library.LibraryDynamicPlaylistDestination
-import com.maxrave.simpmusic.ui.screen.library.LibraryDynamicPlaylistType
-import com.maxrave.simpmusic.ui.theme.typo
+import com.arubr.smsvcodes.extension.NonLazyGrid
+import com.arubr.smsvcodes.ui.navigation.destination.library.LibraryDynamicPlaylistDestination
+import com.arubr.smsvcodes.ui.screen.library.LibraryDynamicPlaylistType
+import com.arubr.smsvcodes.ui.theme.typo
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
 import simpmusic.composeapp.generated.resources.Res

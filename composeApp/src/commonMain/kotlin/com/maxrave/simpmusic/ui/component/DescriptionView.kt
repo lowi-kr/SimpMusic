@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.animateIntAsState
@@ -26,7 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.ui.theme.typo
+import com.arubr.smsvcodes.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
 import simpmusic.composeapp.generated.resources.Res
 import simpmusic.composeapp.generated.resources.less

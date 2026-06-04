@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import android.app.usage.StorageStatsManager
 import android.content.Context
@@ -20,10 +20,10 @@ import com.maxrave.domain.repository.CacheRepository
 import com.maxrave.domain.repository.CommonRepository
 import com.maxrave.logger.Logger
 import com.maxrave.media3.di.stopService
-import com.maxrave.simpmusic.extension.bytesToMB
-import com.maxrave.simpmusic.extension.getSizeOfFile
-import com.maxrave.simpmusic.extension.zipInputStream
-import com.maxrave.simpmusic.extension.zipOutputStream
+import com.arubr.smsvcodes.extension.bytesToMB
+import com.arubr.smsvcodes.extension.getSizeOfFile
+import com.arubr.smsvcodes.extension.zipInputStream
+import com.arubr.smsvcodes.extension.zipOutputStream
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext

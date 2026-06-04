@@ -1,6 +1,6 @@
-package com.maxrave.simpmusic.utils
+package com.arubr.smsvcodes.utils
 
-import com.maxrave.simpmusic.BuildKonfig
+import com.arubr.smsvcodes.BuildKonfig
 
 object VersionManager {
     private var versionName: String? = null

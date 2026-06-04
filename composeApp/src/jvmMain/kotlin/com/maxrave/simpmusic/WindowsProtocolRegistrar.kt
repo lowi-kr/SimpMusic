@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 import com.maxrave.logger.Logger
 

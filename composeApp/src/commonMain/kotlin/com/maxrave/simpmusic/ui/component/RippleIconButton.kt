@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding

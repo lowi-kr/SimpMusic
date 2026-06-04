@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.lifecycle.viewModelScope
 import com.maxrave.common.Config
@@ -26,8 +26,8 @@ import com.maxrave.domain.utils.collectLatestResource
 import com.maxrave.domain.utils.collectResource
 import com.maxrave.domain.utils.toTrack
 import com.maxrave.logger.LogLevel
-import com.maxrave.simpmusic.expect.shareUrl
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.expect.shareUrl
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
@@ -79,15 +79,15 @@ import com.maxrave.domain.utils.toListName
 import com.maxrave.domain.utils.toSongEntity
 import com.maxrave.domain.utils.toTrack
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.Platform
-import com.maxrave.simpmusic.expect.ui.HorizontalScrollBar
-import com.maxrave.simpmusic.extension.generateRandomColor
-import com.maxrave.simpmusic.getPlatform
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.ArtistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PlaylistDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.HomeViewModel
+import com.arubr.smsvcodes.Platform
+import com.arubr.smsvcodes.expect.ui.HorizontalScrollBar
+import com.arubr.smsvcodes.extension.generateRandomColor
+import com.arubr.smsvcodes.getPlatform
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.ArtistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PlaylistDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.HomeViewModel
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel

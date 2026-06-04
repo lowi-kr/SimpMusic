@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.lifecycle.viewModelScope
 import coil3.PlatformContext
@@ -21,9 +21,9 @@ import com.maxrave.domain.repository.SongRepository
 import com.maxrave.domain.utils.LocalResource
 import com.maxrave.logger.LogLevel
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.Platform
-import com.maxrave.simpmusic.getPlatform
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.Platform
+import com.arubr.smsvcodes.getPlatform
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.delay

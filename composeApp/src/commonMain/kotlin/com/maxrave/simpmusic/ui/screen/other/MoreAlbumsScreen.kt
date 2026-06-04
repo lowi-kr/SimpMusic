@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.other
+package com.arubr.smsvcodes.ui.screen.other
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -31,15 +31,15 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.ui.component.CenterLoadingBox
-import com.maxrave.simpmusic.ui.component.EndOfPage
-import com.maxrave.simpmusic.ui.component.HomeItemContentPlaylist
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.MoreAlbumsDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.MoreAlbumsUIState
-import com.maxrave.simpmusic.viewModel.MoreAlbumsViewModel
+import com.arubr.smsvcodes.ui.component.CenterLoadingBox
+import com.arubr.smsvcodes.ui.component.EndOfPage
+import com.arubr.smsvcodes.ui.component.HomeItemContentPlaylist
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.MoreAlbumsDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.MoreAlbumsUIState
+import com.arubr.smsvcodes.viewModel.MoreAlbumsViewModel
 import dev.chrisbanes.haze.hazeEffect
 import dev.chrisbanes.haze.hazeSource
 import dev.chrisbanes.haze.materials.ExperimentalHazeMaterialsApi

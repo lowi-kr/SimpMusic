@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.lifecycle.viewModelScope
 import com.maxrave.common.Config
@@ -17,11 +17,11 @@ import com.maxrave.domain.mediaservice.handler.QueueData
 import com.maxrave.domain.repository.ArtistRepository
 import com.maxrave.domain.repository.SongRepository
 import com.maxrave.domain.utils.Resource
-import com.maxrave.simpmusic.extension.toArtistScreenData
-import com.maxrave.simpmusic.viewModel.ArtistScreenState.Error
-import com.maxrave.simpmusic.viewModel.ArtistScreenState.Loading
-import com.maxrave.simpmusic.viewModel.ArtistScreenState.Success
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.extension.toArtistScreenData
+import com.arubr.smsvcodes.viewModel.ArtistScreenState.Error
+import com.arubr.smsvcodes.viewModel.ArtistScreenState.Loading
+import com.arubr.smsvcodes.viewModel.ArtistScreenState.Success
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

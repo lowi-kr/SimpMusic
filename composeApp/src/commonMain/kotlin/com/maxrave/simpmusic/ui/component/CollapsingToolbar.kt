@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -50,7 +50,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
-import com.maxrave.simpmusic.expect.ui.toImageBitmap
+import com.arubr.smsvcodes.expect.ui.toImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -69,10 +69,10 @@ import coil3.request.crossfade
 import coil3.toBitmap
 import com.kmpalette.rememberPaletteState
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.extension.getColorFromPalette
-import com.maxrave.simpmusic.extension.getScreenSizeInfo
-import com.maxrave.simpmusic.extension.rgbFactor
-import com.maxrave.simpmusic.ui.theme.md_theme_dark_background
+import com.arubr.smsvcodes.extension.getColorFromPalette
+import com.arubr.smsvcodes.extension.getScreenSizeInfo
+import com.arubr.smsvcodes.extension.rgbFactor
+import com.arubr.smsvcodes.ui.theme.md_theme_dark_background
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChanged
 import org.jetbrains.compose.resources.painterResource

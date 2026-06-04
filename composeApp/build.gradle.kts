@@ -36,7 +36,7 @@ kotlin {
         freeCompilerArgs.add("-Xexpect-actual-classes")
     }
     android {
-        namespace = "com.maxrave.simpmusic.composeapp"
+        namespace = "com.arubr.smsvcodes.composeapp"
         compileSdk = 37
         minSdk = 26
         withJava()
@@ -517,7 +517,7 @@ val vlcSetupAll by tasks.registering {
 }
 
 buildkonfig {
-    packageName = "com.maxrave.simpmusic"
+    packageName = "com.arubr.smsvcodes"
     exposeObjectWithName = "BuildKonfig"
     defaultConfigs {
         val versionName =

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.other
+package com.arubr.smsvcodes.ui.screen.other
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -37,10 +37,10 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.expect.openUrl
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.utils.VersionManager
+import com.arubr.smsvcodes.expect.openUrl
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.utils.VersionManager
 import dev.chrisbanes.haze.hazeEffect
 import dev.chrisbanes.haze.hazeSource
 import dev.chrisbanes.haze.materials.ExperimentalHazeMaterialsApi

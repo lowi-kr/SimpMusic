@@ -1,9 +1,9 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.expect.ui.PlatformBackdrop
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.arubr.smsvcodes.expect.ui.PlatformBackdrop
+import com.arubr.smsvcodes.viewModel.SharedViewModel
 import kotlin.reflect.KClass
 
 @Composable

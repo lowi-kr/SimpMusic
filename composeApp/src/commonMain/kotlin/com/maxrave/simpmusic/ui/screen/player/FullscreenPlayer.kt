@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.player
+package com.arubr.smsvcodes.ui.screen.player
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -75,15 +75,15 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import com.maxrave.common.Config.MAIN_PLAYER
-import com.maxrave.simpmusic.expect.ui.MediaPlayerViewWithSubtitle
-import com.maxrave.simpmusic.extension.formatDuration
-import com.maxrave.simpmusic.extension.rememberIsInPipMode
-import com.maxrave.simpmusic.ui.component.NowPlayingBottomSheet
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.theme.overlay
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.SharedViewModel
-import com.maxrave.simpmusic.viewModel.UIEvent
+import com.arubr.smsvcodes.expect.ui.MediaPlayerViewWithSubtitle
+import com.arubr.smsvcodes.extension.formatDuration
+import com.arubr.smsvcodes.extension.rememberIsInPipMode
+import com.arubr.smsvcodes.ui.component.NowPlayingBottomSheet
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.theme.overlay
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.SharedViewModel
+import com.arubr.smsvcodes.viewModel.UIEvent
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource

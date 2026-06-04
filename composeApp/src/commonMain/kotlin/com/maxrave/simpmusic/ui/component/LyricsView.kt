@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.Animatable
 import androidx.compose.animation.AnimatedVisibility
@@ -92,17 +92,17 @@ import coil3.request.CachePolicy
 import coil3.request.ImageRequest
 import coil3.request.crossfade
 import com.maxrave.domain.data.model.streams.TimeLine
-import com.maxrave.simpmusic.extension.KeepScreenOn
-import com.maxrave.simpmusic.extension.ParsedRichSyncLine
-import com.maxrave.simpmusic.extension.animateScrollAndCentralizeItem
-import com.maxrave.simpmusic.extension.formatDuration
-import com.maxrave.simpmusic.extension.hsvToColor
-import com.maxrave.simpmusic.extension.parseRichSyncWords
-import com.maxrave.simpmusic.ui.navigation.destination.list.ArtistDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.NowPlayingScreenData
-import com.maxrave.simpmusic.viewModel.SharedViewModel
-import com.maxrave.simpmusic.viewModel.UIEvent
+import com.arubr.smsvcodes.extension.KeepScreenOn
+import com.arubr.smsvcodes.extension.ParsedRichSyncLine
+import com.arubr.smsvcodes.extension.animateScrollAndCentralizeItem
+import com.arubr.smsvcodes.extension.formatDuration
+import com.arubr.smsvcodes.extension.hsvToColor
+import com.arubr.smsvcodes.extension.parseRichSyncWords
+import com.arubr.smsvcodes.ui.navigation.destination.list.ArtistDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.NowPlayingScreenData
+import com.arubr.smsvcodes.viewModel.SharedViewModel
+import com.arubr.smsvcodes.viewModel.UIEvent
 import dev.chrisbanes.haze.hazeEffect
 import dev.chrisbanes.haze.hazeSource
 import dev.chrisbanes.haze.materials.CupertinoMaterials

@@ -132,7 +132,7 @@ tasks.named<hydraulic.conveyor.gradle.WriteConveyorConfigTask>("writeConveyorCon
             """
             |app.fsname = simpmusic
             |app.display-name = SimpMusic
-            |app.rdns-name = com.maxrave.simpmusic
+            |app.rdns-name = com.arubr.smsvcodes
             |
             |// Override the Gradle-detected classpath with the ProGuard'd
             |// jar directory. Conveyor expands a directory entry to every
@@ -154,7 +154,7 @@ tasks.named<hydraulic.conveyor.gradle.WriteConveyorConfigTask>("writeConveyorCon
 
 compose.desktop {
     application {
-        mainClass = "com.maxrave.simpmusic.MainKt"
+        mainClass = "com.arubr.smsvcodes.MainKt"
         jvmArgs += "--add-opens=java.base/java.nio=ALL-UNNAMED"
 
         nativeDistributions {
@@ -202,7 +202,7 @@ compose.desktop {
                             <key>CFBundleTypeRole</key>
                             <string>Viewer</string>
                             <key>CFBundleURLName</key>
-                            <string>com.maxrave.simpmusic.deeplink</string>
+                            <string>com.arubr.smsvcodes.deeplink</string>
                             <key>CFBundleURLSchemes</key>
                             <array>
                                 <string>simpmusic</string>

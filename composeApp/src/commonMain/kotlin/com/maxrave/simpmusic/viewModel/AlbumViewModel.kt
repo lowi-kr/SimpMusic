@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewModelScope
@@ -18,8 +18,8 @@ import com.maxrave.domain.utils.toAlbumEntity
 import com.maxrave.domain.utils.toArrayListTrack
 import com.maxrave.domain.utils.toSongEntity
 import com.maxrave.logger.LogLevel
-import com.maxrave.simpmusic.ui.theme.md_theme_dark_background
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.ui.theme.md_theme_dark_background
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

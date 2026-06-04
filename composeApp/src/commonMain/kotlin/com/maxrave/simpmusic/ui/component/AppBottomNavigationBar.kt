@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -20,11 +20,11 @@ import androidx.navigation.NavController
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.maxrave.simpmusic.extension.greyScale
-import com.maxrave.simpmusic.ui.navigation.destination.home.HomeDestination
-import com.maxrave.simpmusic.ui.navigation.destination.library.LibraryDestination
-import com.maxrave.simpmusic.ui.navigation.destination.search.SearchDestination
-import com.maxrave.simpmusic.ui.theme.typo
+import com.arubr.smsvcodes.extension.greyScale
+import com.arubr.smsvcodes.ui.navigation.destination.home.HomeDestination
+import com.arubr.smsvcodes.ui.navigation.destination.library.LibraryDestination
+import com.arubr.smsvcodes.ui.navigation.destination.search.SearchDestination
+import com.arubr.smsvcodes.ui.theme.typo
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import simpmusic.composeapp.generated.resources.*

@@ -1,6 +1,6 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
-import com.maxrave.simpmusic.utils.VersionManager
+import com.arubr.smsvcodes.utils.VersionManager
 import io.sentry.Sentry
 import java.awt.BorderLayout
 import java.awt.Color

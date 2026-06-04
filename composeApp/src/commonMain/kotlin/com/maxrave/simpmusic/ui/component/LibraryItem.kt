@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -54,14 +54,14 @@ import com.maxrave.domain.data.type.RecentlyType
 import com.maxrave.domain.mediaservice.handler.QueueData
 import com.maxrave.domain.utils.connectArtists
 import com.maxrave.domain.utils.toTrack
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.ArtistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.LocalPlaylistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PlaylistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PodcastDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.LibraryViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.ArtistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.LocalPlaylistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PlaylistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PodcastDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.LibraryViewModel
+import com.arubr.smsvcodes.viewModel.SharedViewModel
 import kotlinx.coroutines.runBlocking
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.painterResource

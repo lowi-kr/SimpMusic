@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,13 +28,13 @@ import com.maxrave.data.di.loader.loadAllModules
 import com.maxrave.domain.manager.DataStoreManager
 import com.maxrave.domain.mediaservice.handler.MediaPlayerHandler
 import com.maxrave.domain.mediaservice.handler.ToastType
-import com.maxrave.simpmusic.di.viewModelModule
-import com.maxrave.simpmusic.ui.component.CustomTitleBar
-import com.maxrave.simpmusic.ui.mini_player.MiniPlayerManager
-import com.maxrave.simpmusic.ui.mini_player.MiniPlayerWindow
-import com.maxrave.simpmusic.utils.VersionManager
-import com.maxrave.simpmusic.viewModel.SharedViewModel
-import com.maxrave.simpmusic.viewModel.changeLanguageNative
+import com.arubr.smsvcodes.di.viewModelModule
+import com.arubr.smsvcodes.ui.component.CustomTitleBar
+import com.arubr.smsvcodes.ui.mini_player.MiniPlayerManager
+import com.arubr.smsvcodes.ui.mini_player.MiniPlayerWindow
+import com.arubr.smsvcodes.utils.VersionManager
+import com.arubr.smsvcodes.viewModel.SharedViewModel
+import com.arubr.smsvcodes.viewModel.changeLanguageNative
 import io.sentry.Sentry
 import io.sentry.SentryLevel
 import kotlinx.coroutines.flow.first

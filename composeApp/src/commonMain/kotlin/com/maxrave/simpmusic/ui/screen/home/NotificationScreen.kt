@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.home
+package com.arubr.smsvcodes.ui.screen.home
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -41,14 +41,14 @@ import coil3.request.CachePolicy
 import coil3.request.ImageRequest
 import coil3.request.crossfade
 import com.maxrave.domain.data.entities.NotificationEntity
-import com.maxrave.simpmusic.extension.formatTimeAgo
-import com.maxrave.simpmusic.ui.component.CenterLoadingBox
-import com.maxrave.simpmusic.ui.component.EndOfPage
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.ArtistDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.NotificationViewModel
+import com.arubr.smsvcodes.extension.formatTimeAgo
+import com.arubr.smsvcodes.ui.component.CenterLoadingBox
+import com.arubr.smsvcodes.ui.component.EndOfPage
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.ArtistDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.NotificationViewModel
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel

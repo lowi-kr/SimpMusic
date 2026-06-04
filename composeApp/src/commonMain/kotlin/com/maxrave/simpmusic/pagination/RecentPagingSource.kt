@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.pagination
+package com.arubr.smsvcodes.pagination
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.login
+package com.arubr.smsvcodes.ui.screen.login
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,14 +27,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.expect.ui.DiscordWebView
-import com.maxrave.simpmusic.expect.ui.rememberWebViewState
-import com.maxrave.simpmusic.extension.getStringBlocking
-import com.maxrave.simpmusic.ui.component.DevLogInBottomSheet
-import com.maxrave.simpmusic.ui.component.DevLogInType
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.LogInViewModel
+import com.arubr.smsvcodes.expect.ui.DiscordWebView
+import com.arubr.smsvcodes.expect.ui.rememberWebViewState
+import com.arubr.smsvcodes.extension.getStringBlocking
+import com.arubr.smsvcodes.ui.component.DevLogInBottomSheet
+import com.arubr.smsvcodes.ui.component.DevLogInType
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.LogInViewModel
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import simpmusic.composeapp.generated.resources.Res

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.home
+package com.arubr.smsvcodes.ui.screen.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -30,18 +30,18 @@ import com.maxrave.domain.data.entities.SongEntity
 import com.maxrave.domain.mediaservice.handler.PlaylistType
 import com.maxrave.domain.mediaservice.handler.QueueData
 import com.maxrave.domain.utils.toTrack
-import com.maxrave.simpmusic.ui.component.ArtistFullWidthItems
-import com.maxrave.simpmusic.ui.component.CenterLoadingBox
-import com.maxrave.simpmusic.ui.component.EndOfPage
-import com.maxrave.simpmusic.ui.component.PlaylistFullWidthItems
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.component.SongFullWidthItems
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.ArtistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PlaylistDestination
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.RecentlySongsViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.arubr.smsvcodes.ui.component.ArtistFullWidthItems
+import com.arubr.smsvcodes.ui.component.CenterLoadingBox
+import com.arubr.smsvcodes.ui.component.EndOfPage
+import com.arubr.smsvcodes.ui.component.PlaylistFullWidthItems
+import com.arubr.smsvcodes.ui.component.RippleIconButton
+import com.arubr.smsvcodes.ui.component.SongFullWidthItems
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.ArtistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PlaylistDestination
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.viewModel.RecentlySongsViewModel
+import com.arubr.smsvcodes.viewModel.SharedViewModel
 import dev.chrisbanes.haze.hazeEffect
 import dev.chrisbanes.haze.hazeSource
 import dev.chrisbanes.haze.materials.ExperimentalHazeMaterialsApi

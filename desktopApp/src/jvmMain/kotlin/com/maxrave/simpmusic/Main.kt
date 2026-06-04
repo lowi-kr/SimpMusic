@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 /**
  * Thin entry point for SimpMusic Desktop.

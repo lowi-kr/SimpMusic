@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.pagination
+package com.arubr.smsvcodes.pagination
 
 sealed class PagingActions<T> {
     data class Insert<T>(

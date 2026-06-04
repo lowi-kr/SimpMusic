@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.expect.ui
+package com.arubr.smsvcodes.expect.ui
 
 import android.content.Intent
 import android.media.audiofx.AudioEffect

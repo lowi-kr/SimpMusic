@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.LibraryMusic
@@ -7,11 +7,11 @@ import androidx.compose.material.icons.rounded.Search
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.expect.ui.PlatformBackdrop
-import com.maxrave.simpmusic.ui.navigation.destination.home.HomeDestination
-import com.maxrave.simpmusic.ui.navigation.destination.library.LibraryDestination
-import com.maxrave.simpmusic.ui.navigation.destination.search.SearchDestination
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.arubr.smsvcodes.expect.ui.PlatformBackdrop
+import com.arubr.smsvcodes.ui.navigation.destination.home.HomeDestination
+import com.arubr.smsvcodes.ui.navigation.destination.library.LibraryDestination
+import com.arubr.smsvcodes.ui.navigation.destination.search.SearchDestination
+import com.arubr.smsvcodes.viewModel.SharedViewModel
 import org.jetbrains.compose.resources.StringResource
 import simpmusic.composeapp.generated.resources.Res
 import simpmusic.composeapp.generated.resources.home

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.navigation.destination.search
+package com.arubr.smsvcodes.ui.navigation.destination.search
 
 import kotlinx.serialization.Serializable
 

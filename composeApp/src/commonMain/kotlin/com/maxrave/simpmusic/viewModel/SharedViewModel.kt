@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.lifecycle.viewModelScope
@@ -60,12 +60,12 @@ import com.maxrave.domain.utils.toSyncedLyrics
 import com.maxrave.domain.utils.toTrack
 import com.maxrave.logger.LogLevel
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.Platform
-import com.maxrave.simpmusic.expect.getDownloadFolderPath
-import com.maxrave.simpmusic.expect.ui.toByteArray
-import com.maxrave.simpmusic.getPlatform
-import com.maxrave.simpmusic.utils.VersionManager
-import com.maxrave.simpmusic.viewModel.base.BaseViewModel
+import com.arubr.smsvcodes.Platform
+import com.arubr.smsvcodes.expect.getDownloadFolderPath
+import com.arubr.smsvcodes.expect.ui.toByteArray
+import com.arubr.smsvcodes.getPlatform
+import com.arubr.smsvcodes.utils.VersionManager
+import com.arubr.smsvcodes.viewModel.base.BaseViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.Job

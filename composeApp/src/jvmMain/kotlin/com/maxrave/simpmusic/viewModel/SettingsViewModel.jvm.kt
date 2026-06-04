@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.arubr.smsvcodes.viewModel
 
 import com.eygraber.uri.Uri
 import com.maxrave.common.DB_NAME
@@ -7,7 +7,7 @@ import com.maxrave.data.io.getHomeFolderPath
 import com.maxrave.domain.repository.CacheRepository
 import com.maxrave.domain.repository.CommonRepository
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.extension.zipOutputStream
+import com.arubr.smsvcodes.extension.zipOutputStream
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

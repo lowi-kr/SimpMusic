@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.expect
+package com.arubr.smsvcodes.expect
 
 /**
  * Platform-specific function to toggle mini player window.

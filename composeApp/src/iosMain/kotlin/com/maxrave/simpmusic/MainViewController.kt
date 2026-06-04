@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 import androidx.compose.ui.window.ComposeUIViewController
 

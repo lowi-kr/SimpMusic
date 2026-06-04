@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.expect.ui
+package com.arubr.smsvcodes.expect.ui
 
 import android.graphics.Bitmap.CompressFormat.JPEG
 import androidx.compose.ui.graphics.ImageBitmap

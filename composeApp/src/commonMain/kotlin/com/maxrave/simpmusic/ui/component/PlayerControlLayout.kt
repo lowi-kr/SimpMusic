@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
@@ -29,9 +29,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.maxrave.domain.mediaservice.handler.ControlState
 import com.maxrave.domain.mediaservice.handler.RepeatState
-import com.maxrave.simpmusic.ui.theme.seed
-import com.maxrave.simpmusic.ui.theme.transparent
-import com.maxrave.simpmusic.viewModel.UIEvent
+import com.arubr.smsvcodes.ui.theme.seed
+import com.arubr.smsvcodes.ui.theme.transparent
+import com.arubr.smsvcodes.viewModel.UIEvent
 
 @Composable
 fun PlayerControlLayout(

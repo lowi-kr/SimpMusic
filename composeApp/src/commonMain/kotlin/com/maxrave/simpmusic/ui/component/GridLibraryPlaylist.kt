@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.arubr.smsvcodes.ui.component
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.MarqueeAnimationMode
@@ -50,15 +50,15 @@ import com.maxrave.domain.data.type.ChartItem
 import com.maxrave.domain.data.type.PlaylistType
 import com.maxrave.domain.utils.LocalResource
 import com.maxrave.logger.Logger
-import com.maxrave.simpmusic.extension.angledGradientBackground
-import com.maxrave.simpmusic.extension.isScrollingUp
-import com.maxrave.simpmusic.ui.navigation.destination.list.AlbumDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.LocalPlaylistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PlaylistDestination
-import com.maxrave.simpmusic.ui.navigation.destination.list.PodcastDestination
-import com.maxrave.simpmusic.ui.theme.seed
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.ui.theme.white
+import com.arubr.smsvcodes.extension.angledGradientBackground
+import com.arubr.smsvcodes.extension.isScrollingUp
+import com.arubr.smsvcodes.ui.navigation.destination.list.AlbumDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.LocalPlaylistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PlaylistDestination
+import com.arubr.smsvcodes.ui.navigation.destination.list.PodcastDestination
+import com.arubr.smsvcodes.ui.theme.seed
+import com.arubr.smsvcodes.ui.theme.typo
+import com.arubr.smsvcodes.ui.theme.white
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
 import simpmusic.composeapp.generated.resources.Res

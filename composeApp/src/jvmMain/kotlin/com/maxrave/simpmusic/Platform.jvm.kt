@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.arubr.smsvcodes
 
 
 actual fun getPlatform(): Platform = Platform.Desktop

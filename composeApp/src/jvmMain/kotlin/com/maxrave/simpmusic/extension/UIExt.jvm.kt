@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.extension
+package com.arubr.smsvcodes.extension
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalDensity
